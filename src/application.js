@@ -67,24 +67,3 @@ module.exports = function application(
 
   return app;
 };
-
-
-// axios.get("/api/appointments").then((response) => {
-//   console.log(response);
-// })
-// .catch((error) => {
-//   console.log(error.response.status);
-//   console.log(error.response.headers);
-//   console.log(error.response.data);
-// })
-//   .put(`/api/appointments/2`, {
-//     id: 2,
-//     time: "1pm",
-//     interview: {
-//       student: "Archie Cohen",
-//       interviewer: 9,
-//     },
-//   })
-//   .then((response) => {
-//     console.log(response);
-//   });
